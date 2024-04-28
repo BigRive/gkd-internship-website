@@ -1,0 +1,8 @@
+#启用Apache的重写引擎
+RewriteEngine On
+#如果请求的不是真实存在的文件
+RewriteCond %{REQUEST_FILENAME} !-f
+#并且请求的不是真实存在的目录
+RewriteCond %{REQUEST_FILENAME} !-d
+#则重写请求到public/index.php
+RewriteRule ^ index.php [L]

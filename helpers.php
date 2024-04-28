@@ -1,31 +1,31 @@
 <?php
-    function basePath($path = ''){                            //╩Ях║╬Ь╤тб╥╬╤
+    function basePath($path = ''){                            //Х▌╥Е▐√Г╩²Е╞╧Х╥╞Е╬└
         return __DIR__ . '/' .$path;
     }
-    function loadPartial($name){                              //╪Р╩╞йсм╪╣д╪стьцШЁф╣д╢ЗбКа©
+    function loadPartial($name){                              //Г╝─Е▄√Х╖├Е⌡╬Г └Е┼═Х╫╫Е░█Г╖╟Г └Д╩ёГ═│И┤▐
         $partialPath = basePath("views/partials/{$name}.php");
-        if(file_exists($partialPath)){                        //╪Л╡Ийсм╪нд╪Чйг╥Я╢Фтз
+        if(file_exists($partialPath)){                        //Фё─Ф÷╔Х╖├Е⌡╬Ф√┤Д╩╤Ф≤╞Е░╕Е╜≤Е°╗
             require $partialPath;
         }
         else{
-            echo "нч╥╗╫БнЖйсм╪{$name}.php";
+            echo "Ф≈═ФЁ∙Х╖ёФ·░Х╖├Е⌡╬{$name}.php";
         }
     }
-    function loadView($name){                                 //╪стьн╩сзviewsд©б╪об╣дйсм╪нд╪Ч
+    function loadView($name){                                 //Е┼═Х╫╫Д╫█Д╨▌viewsГ⌡╝Е╫∙Д╦▀Г └Х╖├Е⌡╬Ф√┤Д╩╤
         $viewPath = basePath("views/{$name}.view.php");
         if(file_exists($viewPath)){
             require $viewPath; 
         }
         else{
-            echo "нч╥╗╫БнЖйсм╪{$name}.view.php";
+            echo "Ф≈═ФЁ∙Х╖ёФ·░Х╖├Е⌡╬{$name}.view.php";
         }
     }
-    function inspect($value){                                 //йДЁЖ╠Да©╣доЙо╦пео╒ё╛╟Эю╗юЮпм╨мж╣ё╛╫Жсцсз©╙╥╒╩╥╬Ё
-        echo '<pre>';                                         //╦Яй╫╩╞отй╬йДЁЖ╣дпео╒ё╛╥╫╠Цтд╤а
+    function inspect($value){                                 //Х╬⌠Е┤╨Е▐≤И┤▐Г └Х╞╕Г╩├Д©║Ф│╞О╪▄Е▄┘Ф▀╛Г╠╩Е·▀Е▓▄Е─╪О╪▄Д╩┘Г■╗Д╨▌Е╪─Е▐▒Г▌╞Е╒┐
+        echo '<pre>';                                         //Ф═╪Е╪▐Е▄√Ф≤╬Г╓╨Х╬⌠Е┤╨Г └Д©║Ф│╞О╪▄Ф√╧Д╬©И≤┘Х╞╩
         var_dump ($value);
         echo '<pre>';
     }
-    function inspectAndDie($value){                           //йДЁЖр╩╦Ж╩Р╤Ю╦Ж╠Да©╣доЙо╦пео╒╨Сё╛а╒╪╢жуж╧PHP╫е╠╬╣дж╢ппё╛╫Жсцсз©╙╥╒╩╥╬Ё
+    function inspectAndDie($value){                           //Х╬⌠Е┤╨Д╦─Д╦╙Ф┬√Е╓ Д╦╙Е▐≤И┤▐Г └Х╞╕Г╩├Д©║Ф│╞Е░▌О╪▄Г╚▀Е█ЁГ╩┬Ф╜╒PHPХ└ Ф°╛Г └Ф┴╖Х║▄О╪▄Д╩┘Г■╗Д╨▌Е╪─Е▐▒Г▌╞Е╒┐
         echo '<pre>';
         die(var_dump ($value));
         echo '<pre>';

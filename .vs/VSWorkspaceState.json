@@ -1,10 +1,15 @@
 {
   "ExpandedNodes": [
     "",
+    "\\controllers",
+    "\\controllers\\error",
+    "\\controllers\\listings",
     "\\public",
     "\\views",
+    "\\views\\error",
+    "\\views\\listings",
     "\\views\\partials"
   ],
-  "SelectedNode": "\\helpers.php",
+  "SelectedNode": "\\views\\error\\404.view.php",
   "PreviewInSolutionExplorer": false
 }
