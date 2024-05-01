@@ -1,4 +1,9 @@
 {
-  "ExpandedNodes": [],
+  "ExpandedNodes": [
+    "",
+    "\\views",
+    "\\views\\error"
+  ],
+  "SelectedNode": "\\views\\error\\403.view.php",
   "PreviewInSolutionExplorer": false
 }
