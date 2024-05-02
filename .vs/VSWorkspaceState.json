@@ -2,10 +2,14 @@
   "ExpandedNodes": [
     "",
     "\\config",
+    "\\controllers",
+    "\\controllers\\listings",
     "\\public",
     "\\views",
-    "\\views\\error"
+    "\\views\\error",
+    "\\views\\listings",
+    "\\views\\partials"
   ],
-  "SelectedNode": "\\Database.php",
+  "SelectedNode": "\\views\\home.view.php",
   "PreviewInSolutionExplorer": false
 }

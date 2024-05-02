@@ -11,9 +11,10 @@
             echo "无法解析视图{$name}.php";
         }
     }
-    function loadView($name){                                 //加载位于views目录下的视图文件
+    function loadView($name, $data = []){                      //加载位于views目录下的视图文件
         $viewPath = basePath("views/{$name}.view.php");
         if(file_exists($viewPath)){
+            extract($data);                                   //将数组键名转换为变量名
             require $viewPath; 
         }
         else{

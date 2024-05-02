@@ -1,8 +1,6 @@
 <?php 
     require "../helpers.php";
     require basePath("Database.php");                                //连接数据库
-    $config = require basePath("config/db.php");
-    $db = new Database($config);
     require basePath('router.php');
     $router = new Router();
     $routes = require basePath('routes.php');
