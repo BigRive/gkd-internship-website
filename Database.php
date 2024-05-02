@@ -16,9 +16,12 @@
                 throw new Exception("数据库连接失败：{$e->getMessage()}");
             }
         }
-        public function query($query){                           //查询数据
+        public function query($query, $params = []){             //查询数据
             try{
                 $sth = $this->conn->prepare($query);             //预处理
+                foreach ($params as $param => $value) {          //绑定参数到查询语句中，防止潜在的SQL注入攻击
+                    $sth->bindValue(':'.$param, $value);
+                }
                 $sth->execute();
                 return $sth;
             }catch(PDOException $e){
