@@ -1,7 +1,7 @@
 <?php 
     require "../helpers.php";
-    require basePath("Database.php");                                //连接数据库
-    require basePath('router.php');
+    require basePath("Framework/Database.php");                      //连接数据库
+    require basePath('Framework/router.php');
     $router = new Router();
     $routes = require basePath('routes.php');
     $uri = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);         //捕获当前请求的URI，并且仅处理路径

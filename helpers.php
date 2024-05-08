@@ -3,7 +3,7 @@
         return __DIR__ . '/' .$path;
     }
     function loadPartial($name){                              //简化视图的加载名称的代码量
-        $partialPath = basePath("views/partials/{$name}.php");
+        $partialPath = basePath("App/views/partials/{$name}.php");
         if(file_exists($partialPath)){                        //检查视图文件是否存在
             require $partialPath;
         }
@@ -12,7 +12,7 @@
         }
     }
     function loadView($name, $data = []){                      //加载位于views目录下的视图文件
-        $viewPath = basePath("views/{$name}.view.php");
+        $viewPath = basePath("App/views/{$name}.view.php");
         if(file_exists($viewPath)){
             extract($data);                                   //将数组键名转换为变量名
             require $viewPath; 

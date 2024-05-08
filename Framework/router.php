@@ -23,7 +23,7 @@
         public function route($uri, $method){                        //遍历路由数组，并匹配对应的路由
             foreach($this->routes as $route){
                 if($route['uri'] === $uri && $route['method'] === $method){     //如果该次路由信息全部匹配成功
-                    require basePath($route['controller']);          //则返回对应的视图文件
+                    require basePath('App/' . $route['controller']); //则返回对应的视图文件
                     return;
                 }
             }
