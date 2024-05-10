@@ -3,8 +3,36 @@
   "WorkspaceRootPath": "D:\\XAMPP\\htdocs\\\u5E7F\u79D1\u5927\u6821\u5185\u5B9E\u4E60\u7F51\u7AD9\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\XAMPP\\htdocs\\\u5E7F\u79D1\u5927\u6821\u5185\u5B9E\u4E60\u7F51\u7AD9\\views\\listings\\show.view.php||{3D2461EC-8045-4AA9-ABFB-812292AE795D}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:views\\listings\\show.view.php||{3D2461EC-8045-4AA9-ABFB-812292AE795D}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\XAMPP\\htdocs\\\u5E7F\u79D1\u5927\u6821\u5185\u5B9E\u4E60\u7F51\u7AD9\\Framework\\router.php||{3D2461EC-8045-4AA9-ABFB-812292AE795D}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Framework\\router.php||{3D2461EC-8045-4AA9-ABFB-812292AE795D}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\XAMPP\\htdocs\\\u5E7F\u79D1\u5927\u6821\u5185\u5B9E\u4E60\u7F51\u7AD9\\App\\controllers\\ListingController.php||{3D2461EC-8045-4AA9-ABFB-812292AE795D}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:App\\controllers\\ListingController.php||{3D2461EC-8045-4AA9-ABFB-812292AE795D}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\XAMPP\\htdocs\\\u5E7F\u79D1\u5927\u6821\u5185\u5B9E\u4E60\u7F51\u7AD9\\App\\controllers\\ErrorController.php||{3D2461EC-8045-4AA9-ABFB-812292AE795D}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:App\\controllers\\ErrorController.php||{3D2461EC-8045-4AA9-ABFB-812292AE795D}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\XAMPP\\htdocs\\\u5E7F\u79D1\u5927\u6821\u5185\u5B9E\u4E60\u7F51\u7AD9\\App\\views\\error.view.php||{3D2461EC-8045-4AA9-ABFB-812292AE795D}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:App\\views\\error.view.php||{3D2461EC-8045-4AA9-ABFB-812292AE795D}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\XAMPP\\htdocs\\\u5E7F\u79D1\u5927\u6821\u5185\u5B9E\u4E60\u7F51\u7AD9\\helpers.php||{3D2461EC-8045-4AA9-ABFB-812292AE795D}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:helpers.php||{3D2461EC-8045-4AA9-ABFB-812292AE795D}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\XAMPP\\htdocs\\\u5E7F\u79D1\u5927\u6821\u5185\u5B9E\u4E60\u7F51\u7AD9\\App\\controllers\\HomeController.php||{3D2461EC-8045-4AA9-ABFB-812292AE795D}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:App\\controllers\\HomeController.php||{3D2461EC-8045-4AA9-ABFB-812292AE795D}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\XAMPP\\htdocs\\\u5E7F\u79D1\u5927\u6821\u5185\u5B9E\u4E60\u7F51\u7AD9\\routes.php||{3D2461EC-8045-4AA9-ABFB-812292AE795D}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:routes.php||{3D2461EC-8045-4AA9-ABFB-812292AE795D}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\XAMPP\\htdocs\\\u5E7F\u79D1\u5927\u6821\u5185\u5B9E\u4E60\u7F51\u7AD9\\public\\index.php||{3D2461EC-8045-4AA9-ABFB-812292AE795D}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:public\\index.php||{3D2461EC-8045-4AA9-ABFB-812292AE795D}"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,7 +52,7 @@
         },
         {
           "DockedWidth": 338,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -32,15 +60,106 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "show.view.php",
-              "DocumentMoniker": "D:\\XAMPP\\htdocs\\\u5E7F\u79D1\u5927\u6821\u5185\u5B9E\u4E60\u7F51\u7AD9\\views\\listings\\show.view.php",
-              "RelativeDocumentMoniker": "views\\listings\\show.view.php",
-              "ToolTip": "D:\\XAMPP\\htdocs\\\u5E7F\u79D1\u5927\u6821\u5185\u5B9E\u4E60\u7F51\u7AD9\\views\\listings\\show.view.php",
-              "RelativeToolTip": "views\\listings\\show.view.php",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEUAAAACAAAA",
+              "DocumentIndex": 4,
+              "Title": "helpers.php",
+              "DocumentMoniker": "D:\\XAMPP\\htdocs\\\u5E7F\u79D1\u5927\u6821\u5185\u5B9E\u4E60\u7F51\u7AD9\\helpers.php",
+              "RelativeDocumentMoniker": "helpers.php",
+              "ToolTip": "D:\\XAMPP\\htdocs\\\u5E7F\u79D1\u5927\u6821\u5185\u5B9E\u4E60\u7F51\u7AD9\\helpers.php",
+              "RelativeToolTip": "helpers.php",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "89320d42-7831-4f47-839a-c227d3a60919.000001|",
-              "WhenOpened": "2024-05-02T18:46:33.34Z",
+              "WhenOpened": "2024-05-10T18:05:54.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "error.view.php",
+              "DocumentMoniker": "D:\\XAMPP\\htdocs\\\u5E7F\u79D1\u5927\u6821\u5185\u5B9E\u4E60\u7F51\u7AD9\\App\\views\\error.view.php",
+              "RelativeDocumentMoniker": "App\\views\\error.view.php",
+              "ToolTip": "D:\\XAMPP\\htdocs\\\u5E7F\u79D1\u5927\u6821\u5185\u5B9E\u4E60\u7F51\u7AD9\\App\\views\\error.view.php",
+              "RelativeToolTip": "App\\views\\error.view.php",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAbAAAA",
+              "Icon": "89320d42-7831-4f47-839a-c227d3a60919.000001|",
+              "WhenOpened": "2024-05-10T17:29:48.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ErrorController.php",
+              "DocumentMoniker": "D:\\XAMPP\\htdocs\\\u5E7F\u79D1\u5927\u6821\u5185\u5B9E\u4E60\u7F51\u7AD9\\App\\controllers\\ErrorController.php",
+              "RelativeDocumentMoniker": "App\\controllers\\ErrorController.php",
+              "ToolTip": "D:\\XAMPP\\htdocs\\\u5E7F\u79D1\u5927\u6821\u5185\u5B9E\u4E60\u7F51\u7AD9\\App\\controllers\\ErrorController.php",
+              "RelativeToolTip": "App\\controllers\\ErrorController.php",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAvAAAA",
+              "Icon": "89320d42-7831-4f47-839a-c227d3a60919.000001|",
+              "WhenOpened": "2024-05-10T17:10:50.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ListingController.php",
+              "DocumentMoniker": "D:\\XAMPP\\htdocs\\\u5E7F\u79D1\u5927\u6821\u5185\u5B9E\u4E60\u7F51\u7AD9\\App\\controllers\\ListingController.php",
+              "RelativeDocumentMoniker": "App\\controllers\\ListingController.php",
+              "ToolTip": "D:\\XAMPP\\htdocs\\\u5E7F\u79D1\u5927\u6821\u5185\u5B9E\u4E60\u7F51\u7AD9\\App\\controllers\\ListingController.php",
+              "RelativeToolTip": "App\\controllers\\ListingController.php",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAABAAAAA",
+              "Icon": "89320d42-7831-4f47-839a-c227d3a60919.000001|",
+              "WhenOpened": "2024-05-10T16:22:22.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "router.php",
+              "DocumentMoniker": "D:\\XAMPP\\htdocs\\\u5E7F\u79D1\u5927\u6821\u5185\u5B9E\u4E60\u7F51\u7AD9\\Framework\\router.php",
+              "RelativeDocumentMoniker": "Framework\\router.php",
+              "ToolTip": "D:\\XAMPP\\htdocs\\\u5E7F\u79D1\u5927\u6821\u5185\u5B9E\u4E60\u7F51\u7AD9\\Framework\\router.php",
+              "RelativeToolTip": "Framework\\router.php",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACIAAAAOAAAA",
+              "Icon": "89320d42-7831-4f47-839a-c227d3a60919.000001|",
+              "WhenOpened": "2024-05-10T12:07:35.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeController.php",
+              "DocumentMoniker": "D:\\XAMPP\\htdocs\\\u5E7F\u79D1\u5927\u6821\u5185\u5B9E\u4E60\u7F51\u7AD9\\App\\controllers\\HomeController.php",
+              "RelativeDocumentMoniker": "App\\controllers\\HomeController.php",
+              "ToolTip": "D:\\XAMPP\\htdocs\\\u5E7F\u79D1\u5927\u6821\u5185\u5B9E\u4E60\u7F51\u7AD9\\App\\controllers\\HomeController.php",
+              "RelativeToolTip": "App\\controllers\\HomeController.php",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAPAAAA",
+              "Icon": "89320d42-7831-4f47-839a-c227d3a60919.000001|",
+              "WhenOpened": "2024-05-10T12:04:34.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "routes.php",
+              "DocumentMoniker": "D:\\XAMPP\\htdocs\\\u5E7F\u79D1\u5927\u6821\u5185\u5B9E\u4E60\u7F51\u7AD9\\routes.php",
+              "RelativeDocumentMoniker": "routes.php",
+              "ToolTip": "D:\\XAMPP\\htdocs\\\u5E7F\u79D1\u5927\u6821\u5185\u5B9E\u4E60\u7F51\u7AD9\\routes.php",
+              "RelativeToolTip": "routes.php",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAABGAAAA",
+              "Icon": "89320d42-7831-4f47-839a-c227d3a60919.000001|",
+              "WhenOpened": "2024-05-10T06:04:02.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "index.php",
+              "DocumentMoniker": "D:\\XAMPP\\htdocs\\\u5E7F\u79D1\u5927\u6821\u5185\u5B9E\u4E60\u7F51\u7AD9\\public\\index.php",
+              "RelativeDocumentMoniker": "public\\index.php",
+              "ToolTip": "D:\\XAMPP\\htdocs\\\u5E7F\u79D1\u5927\u6821\u5185\u5B9E\u4E60\u7F51\u7AD9\\public\\index.php",
+              "RelativeToolTip": "public\\index.php",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAZAAAA",
+              "Icon": "89320d42-7831-4f47-839a-c227d3a60919.000001|",
+              "WhenOpened": "2024-05-10T03:36:56.582Z",
               "EditorCaption": ""
             },
             {

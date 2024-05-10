@@ -1,0 +1,16 @@
+{
+	"name": "cpr/gkd-internship-website",
+	"description": "一个学习PHP前端开发的项目",
+	"authors": [
+		{
+			"name": "陈鹏儒",
+			"email": "cpr.up@outlook.com"
+		}
+	],
+	"autoload":{
+		"psr-4": {
+			"Framework\\": "Framework/",
+			"App\\": "App/"
+		}
+	}
+}

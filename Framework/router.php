@@ -1,11 +1,14 @@
 <?php
+    namespace Framework;
     class Router{                                                    //封装路由处理逻辑
         protected $routes = [];                                      //定义路由数组
-        private function registerRoute($method, $uri, $controller){  //将路由信息添加到路由数组中
+        private function registerRoute($method, $uri, $action){      //将路由信息添加到路由数组中
+            list($controller, $controllerMethod) = explode('@', $action);
             $this->routes[] = [
                 "method"=> $method,
                 "uri" => $uri,
-                "controller" => $controller
+                "controller" => $controller,
+                "controllerMethod" => $controllerMethod
             ];
         }
         public function addGet($uri, $controller){                   //添加一个GET路由
@@ -23,11 +26,13 @@
         public function route($uri, $method){                        //遍历路由数组，并匹配对应的路由
             foreach($this->routes as $route){
                 if($route['uri'] === $uri && $route['method'] === $method){     //如果该次路由信息全部匹配成功
-                    require basePath('App/' . $route['controller']); //则返回对应的视图文件
-                    return;
+                    $controller = 'App\\Controllers\\'.$route['controller'];    //获取控制器和控制器方法
+                    $controllerMethod = $route['controllerMethod'];
+                    $controllerInstance = new $controller();                    //实例化控制器和调用方法
+                    $controllerInstance->$controllerMethod();
                 }
             }
-            $this->error();                                          //默认传递404错误代码
+            //$this->error();                                             //默认传递404错误代码
         }
         public function error($httpCode = 404){                      //默认处理404错误
             http_response_code($httpCode);                           //遇到404错误时返回HTTP状态码404

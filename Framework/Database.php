@@ -1,4 +1,6 @@
 <?php
+    namespace Framework;
+    use PDO;
     class Database{                                              //封装与数据库的连接逻辑
         public $conn;                                            //封装连接数据库所需的所有信息
         public function __construct($config){                    //连接数据库
@@ -12,8 +14,8 @@
             try{
                 $this->conn = new PDO($dsn, $config['username'], $config['password'], $options);
                 //echo "数据库连接成功！";                          //debugger
-            }catch(PDOException $e){
-                throw new Exception("数据库连接失败：{$e->getMessage()}");
+            }catch(\PDOException $e){
+                throw new \Exception("数据库连接失败：{$e->getMessage()}");
             }
         }
         public function query($query, $params = []){             //查询数据
@@ -24,8 +26,8 @@
                 }
                 $sth->execute();
                 return $sth;
-            }catch(PDOException $e){
-                throw new Exception("查询数据库失败：{$e->getMessage()}");
+            }catch(\PDOException $e){
+                throw new \Exception("查询数据库失败：{$e->getMessage()}");
             }
         }
     }    
