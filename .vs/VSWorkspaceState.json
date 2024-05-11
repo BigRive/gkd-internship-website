@@ -1,12 +1,11 @@
 {
   "ExpandedNodes": [
-    "",
     "\\App",
     "\\App\\controllers",
     "\\App\\views",
+    "\\App\\views\\listings",
     "\\Framework",
     "\\public"
   ],
-  "SelectedNode": "\\Framework\\router.php",
   "PreviewInSolutionExplorer": false
 }

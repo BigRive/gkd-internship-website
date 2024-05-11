@@ -31,7 +31,7 @@
 				</li>
                 <li class="mb-2"><strong>标签:</strong> <span>开发</span>, <span>编程</span></li>
               </ul>
-              <a href="/listing?id=1" class="block w-full text-center px-5 py-2.5 shadow-sm rounded border text-base font-medium text-indigo-700 bg-indigo-100 hover:bg-indigo-200">
+              <a href="/listing/1" class="block w-full text-center px-5 py-2.5 shadow-sm rounded border text-base font-medium text-indigo-700 bg-indigo-100 hover:bg-indigo-200">
                 详情
               </a>
             </div>

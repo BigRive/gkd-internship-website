@@ -9,17 +9,21 @@
         }
         public function index(){                             //渲染所有实习页面
             $listings = $this->db->query('select * from listing')->fetchAll();
-            loadView('home', [
+            loadView('listings/index', [
                 'listings' => $listings
             ]);
         }
         public function create(){                            //发布实习页面
             loadView('listings/create');
         }
-        public function show(){                             //渲染实习详情页
-            $id = $_GET['id'] ?? '';                        //如果URL中的id为错误的值或为空，则id置为空字符串
+        public function show($params){                       //渲染实习详情页
+            $id = $params['id'] ?? '';                       //如果URL中的id为错误的值或为空，则id置为空字符串
             $params = ['id' => $id];
             $listing = $this->db->query("select * from listing where id = :id", $params)->fetch();
+            if(!$listing){                                   //如果查询的岗位不存在，则报404错误
+                ErrorController::notFound("该岗位不存在！");
+                return;
+            }
             loadView("listings/show",['listing' => $listing]);
         }
     }
